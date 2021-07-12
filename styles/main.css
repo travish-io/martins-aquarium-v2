@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  font-family: "Bebas Neue";
+}
+
+h1,
+h2 {
+  font-family: "Lobster";
+}
+
+.title {
+  height: 10vh;
+  text-align: center;
+}
+
+.fishmain {
+  display: flex;
+  /* min-height: 90%; */
+  height: 90vh;
+}
+
+.fishlist {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 60%;
+  flex: 2;
+  align-items: center;
+}
+
+.fish {
+  margin: 5px 15px;
+}
+
+.card > img {
+  height: 225px;
+}
+
+.tiptitlecard {
+  width: 286px;
+  height: 177px;
+  border: solid 1px rgb(248 249 250);
+  border-radius: 4px;
+  margin-top: -15px;
+  /* text-align: center; */
+  position: relative;
+}
+
+.tiptitle {
+  position: absolute;
+  top: 35%;
+  left: 25%;
+  font: 1.5em;
+}
+
+.tanktips {
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  /* height: 90%; */
+}
+.tip {
+}
+
+.quotemain {
+  display: flex;
+  border: 2px solid black;
+  font-family: "roboto mono";
+  font-weight: 200;
+  font-size: 1.5em;
+  margin: 10px 10px;
+}
+
+.quote {
+  border: 1px solid red;
+  padding: 15px;
+}
