@@ -66,7 +66,7 @@ h2 {
 
 .quotemain {
   display: flex;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   font-family: "roboto mono";
   font-weight: 200;
   font-size: 1.5em;
@@ -74,6 +74,10 @@ h2 {
 }
 
 .quote {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   padding: 15px;
+}
+
+.locationslist > h2 {
+  text-align: center;
 }
